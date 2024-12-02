@@ -13,6 +13,7 @@ import (
 	"golang.org/x/text/language"
 )
 
+//go:generate bash -c "mkdir -p codegen"
 //go:generate go run generate.go
 //go:generate go fmt codegen/user.gen.go
 
